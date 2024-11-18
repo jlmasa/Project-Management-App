@@ -122,7 +122,7 @@ const Sidebar = () => {
             <SidebarLink icon={AlertOctagon} label="Low" href="/priority/low" />
             <SidebarLink
               icon={Layers3}
-              label="Backlog"
+              label="Back-log"
               href="/priority/backlog"
             />
           </>
