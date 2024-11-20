@@ -1,8 +1,8 @@
 "use client";
 
 import React from "react";
-import Navbar from "@/app/(components)/Navbar";
-import Sidebar from "@/app/(components)/Sidebar";
+import Navbar from "@/components/Navbar";
+import Sidebar from "@/components/Sidebar";
 import StoreProvider, { useAppSelector } from "./redux";
 
 function DashboardLayout({ children }: { children: React.ReactNode }) {
